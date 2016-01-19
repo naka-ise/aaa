@@ -11,6 +11,7 @@ namespace WpfApplication1.Controller
 {
     public interface IController
     {
+        //
         void SetModel(IModel model);
         void SetView(IView view);
         void insertUser(string[] param, string user);

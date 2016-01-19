@@ -9,6 +9,8 @@ namespace WpfApplication1.Model
 {
     public interface IModel
     {
+        //noa
+        //
         void AddUser(string[] param, string user);
         void DeleteUser(string[] param, string user);
         DataTable SearchLesson(string[] param);
