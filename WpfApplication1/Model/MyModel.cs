@@ -12,7 +12,7 @@ namespace WpfApplication1.Model
 {
     class MyModel : IModel
     {//
-       //
+       //add David
         public static string directoryPath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + "\\Model\\TeachMe_DB.mdf";
         public static string connection = "Data Source=(LocalDB)\\v11.0;AttachDbFileName=" + directoryPath + ";Integrated Security=True";
         public static SqlConnection SqlCon = new SqlConnection(connection);
